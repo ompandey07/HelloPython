@@ -7,7 +7,7 @@ while True:
     print(f"Welcome, {Name}!")
 
     computer_number = random.randint(1, 10)
-
+    print(computer_number)
     user_guess = int(input("Guess a number between 1 and 10: "))
 
     if user_guess == computer_number:
